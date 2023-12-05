@@ -1,0 +1,79 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29201.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Inventory.Web", "Inventory\Inventory.Web.csproj", "{2AA8029D-9351-4940-B1CB-8E4ABAE0DFE0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Inventory.Repository", "Inventory.Repository\Inventory.Repository.csproj", "{914E4056-EDDF-421E-9AAC-D8EF35DE61F0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Inventory.CrossCutting", "Inventory.CrossCutting\Inventory.CrossCutting.csproj", "{1364037A-CB72-4B9D-BBDC-1F4D109DE3BF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Inventory.Service", "Inventory.Service\Inventory.Service.csproj", "{22062B8B-9409-4662-AE40-01C5BFFA6A6D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "inventory.Engines", "inventory.Engines\inventory.Engines.csproj", "{B0C9B093-BD92-4158-9B1E-762F964A5090}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Inventory.Data", "Inventory.Data\Inventory.Data.csproj", "{6AE37B27-31FE-42B4-8B7D-6AE67305A722}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2AA8029D-9351-4940-B1CB-8E4ABAE0DFE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AA8029D-9351-4940-B1CB-8E4ABAE0DFE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AA8029D-9351-4940-B1CB-8E4ABAE0DFE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AA8029D-9351-4940-B1CB-8E4ABAE0DFE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{914E4056-EDDF-421E-9AAC-D8EF35DE61F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{914E4056-EDDF-421E-9AAC-D8EF35DE61F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{914E4056-EDDF-421E-9AAC-D8EF35DE61F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{914E4056-EDDF-421E-9AAC-D8EF35DE61F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1364037A-CB72-4B9D-BBDC-1F4D109DE3BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1364037A-CB72-4B9D-BBDC-1F4D109DE3BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1364037A-CB72-4B9D-BBDC-1F4D109DE3BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1364037A-CB72-4B9D-BBDC-1F4D109DE3BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22062B8B-9409-4662-AE40-01C5BFFA6A6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22062B8B-9409-4662-AE40-01C5BFFA6A6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22062B8B-9409-4662-AE40-01C5BFFA6A6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22062B8B-9409-4662-AE40-01C5BFFA6A6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0C9B093-BD92-4158-9B1E-762F964A5090}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0C9B093-BD92-4158-9B1E-762F964A5090}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0C9B093-BD92-4158-9B1E-762F964A5090}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0C9B093-BD92-4158-9B1E-762F964A5090}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AE37B27-31FE-42B4-8B7D-6AE67305A722}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AE37B27-31FE-42B4-8B7D-6AE67305A722}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AE37B27-31FE-42B4-8B7D-6AE67305A722}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AE37B27-31FE-42B4-8B7D-6AE67305A722}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E8FE6800-1F07-4FB2-89B5-77B4C1B4A81D}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 7
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://tfs-server:8080/tfs/dot.net
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Inventory\\Inventory.Web.csproj
+		SccProjectName1 = Inventory
+		SccLocalPath1 = Inventory
+		SccProjectUniqueName2 = Inventory.Repository\\Inventory.Repository.csproj
+		SccProjectName2 = Inventory.Repository
+		SccLocalPath2 = Inventory.Repository
+		SccProjectUniqueName3 = Inventory.CrossCutting\\Inventory.CrossCutting.csproj
+		SccProjectName3 = Inventory.CrossCutting
+		SccLocalPath3 = Inventory.CrossCutting
+		SccProjectUniqueName4 = Inventory.Service\\Inventory.Service.csproj
+		SccProjectName4 = Inventory.Service
+		SccLocalPath4 = Inventory.Service
+		SccProjectUniqueName5 = inventory.Engines\\inventory.Engines.csproj
+		SccProjectName5 = inventory.Engines
+		SccLocalPath5 = inventory.Engines
+		SccProjectUniqueName6 = Inventory.Data\\Inventory.Data.csproj
+		SccProjectName6 = Inventory.Data
+		SccLocalPath6 = Inventory.Data
+	EndGlobalSection
+EndGlobal
